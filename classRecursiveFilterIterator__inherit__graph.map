@@ -1,0 +1,10 @@
+<map id="RecursiveFilterIterator" name="RecursiveFilterIterator">
+<area shape="rect" id="node14" href="$classDirectoryFilterDots.html" title="A filtered DirectoryIterator. " alt="" coords="5,915,136,1029"/>
+<area shape="rect" id="node16" href="$classNoCvsDirectory.html" title="{NoCvsDirectory\n||+ __construct()\l+ accept()\l+ getChildren()\l}" alt="" coords="160,915,275,1029"/>
+<area shape="rect" id="node18" href="$classParentIterator.html" title="Iterator to filter parents. " alt="" coords="299,931,401,1013"/>
+<area shape="rect" id="node2" href="$classFilterIterator.html" title="Abstract filter for iterators. " alt="" coords="75,462,207,703"/>
+<area shape="rect" id="node4" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="87,331,219,413"/>
+<area shape="rect" id="node6" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="164,137,247,282"/>
+<area shape="rect" id="node10" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="232,534,355,631"/>
+<area shape="rect" id="node8" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="160,6,251,87"/>
+</map>

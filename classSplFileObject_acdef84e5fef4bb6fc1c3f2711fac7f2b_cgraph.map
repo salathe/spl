@@ -1,0 +1,5 @@
+<map id="SplFileObject\readLine" name="SplFileObject\readLine">
+<area shape="rect" id="node3" href="$classSplFileObject.html#adf6cf247f8834f7fcd4fa7d809b7e1c5" title="SplFileObject\\eof" alt="" coords="216,5,339,33"/>
+<area shape="rect" id="node5" href="$classSplFileObject.html#a9bc0bb683ab5a87018c17886816e0b85" title="increase current line number " alt="" coords="211,57,344,85"/>
+<area shape="rect" id="node7" href="$classSplFileObject.html#a7a374510213763c74130d33936499a62" title="Free the current line buffer and increment the line counter. " alt="" coords="392,83,544,111"/>
+</map>

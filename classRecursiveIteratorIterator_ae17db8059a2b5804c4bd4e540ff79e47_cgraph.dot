@@ -1,0 +1,18 @@
+digraph "RecursiveIteratorIterator\rewind"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RecursiveIteratorIterator\l\\rewind",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RecursiveIteratorIterator\l\\callNextElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html#a3b80db4502f5a5de4215eecaf594ede7"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RecursiveIteratorIterator\l\\callHasChildren",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html#ac75e71340e63d2f2b3177f8d048c372e"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RecursiveIteratorIterator\l\\nextElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html#a9daa2d556b35dd51c773f21d1fd5213e",tooltip="Called when the next element is available. "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RecursiveIteratorIterator\l\\valid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html#afbe0763395760e5d5fa002a4d11aeaaf"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="RecursiveIteratorIterator\l\\endChildren",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html#ad6b5372fc86bbeecbb240c3c6a9bac5a",tooltip="Called after current child iterator is invalid and right before it gets destructed. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

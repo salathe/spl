@@ -1,0 +1,12 @@
+digraph "DualIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DualIterator\n|+ CURRENT_0\l+ CURRENT_ARRAY\l+ CURRENT_LHS\l+ CURRENT_RHS\l+ DEFAULT_FLAGS\l+ KEY_0\l+ KEY_LHS\l+ KEY_RHS\l- $flags\l- $lhs\l- $rhs\l|+ __construct()\l+ areEqual()\l+ areIdentical()\l+ current()\l+ getFlags()\l+ getLHS()\l+ getRHS()\l+ key()\l+ next()\l+ rewind()\l+ setFlags()\l+ valid()\l+ compareIterators()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{RecursiveDualIterator\n|- $ref\l|+ __construct()\l+ areEqual()\l+ areIdentical()\l+ getChildren()\l+ hasChildren()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveDualIterator.html",tooltip="Synchronous iteration over two recursive iterators. "];
+}

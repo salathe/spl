@@ -1,0 +1,15 @@
+<map id="Exception" name="Exception">
+<area shape="rect" id="node3" href="$classLogicException.html" title="Exception that represents error in the program logic. " alt="" coords="473,345,584,426"/>
+<area shape="rect" id="node17" href="$classRuntimeException.html" title="Exception thrown for errors that are only detectable at runtime. " alt="" coords="1139,345,1268,426"/>
+<area shape="rect" id="node5" href="$classBadFunctionCallException.html" title="Exception thrown when a function call was illegal. " alt="" coords="4,475,181,557"/>
+<area shape="rect" id="node9" href="$classDomainException.html" title="Exception that denotes a value not in the valid domain was used. " alt="" coords="206,475,332,557"/>
+<area shape="rect" id="node11" href="$classInvalidArgumentException.html" title="Exception that denotes invalid arguments were passed. " alt="" coords="356,475,532,557"/>
+<area shape="rect" id="node13" href="$classLengthException.html" title="Exception thrown when a parameter exceeds the allowed length. " alt="" coords="556,475,676,557"/>
+<area shape="rect" id="node15" href="$classOutOfRangeException.html" title="Exception thrown when an illegal index was requested. " alt="" coords="700,475,855,557"/>
+<area shape="rect" id="node7" href="$classBadMethodCallException.html" title="Exception thrown when a method call was illegal. " alt="" coords="8,606,179,687"/>
+<area shape="rect" id="node19" href="$classOutOfBoundsException.html" title="Exception thrown when an illegal index was requested. " alt="" coords="878,475,1039,557"/>
+<area shape="rect" id="node21" href="$classOverflowException.html" title="Exception thrown to indicate arithmetic/buffer overflow. " alt="" coords="1063,475,1195,557"/>
+<area shape="rect" id="node23" href="$classRangeException.html" title="Exception thrown to indicate range errors during program execution. " alt="" coords="1219,475,1337,557"/>
+<area shape="rect" id="node25" href="$classUnderflowException.html" title="Exception thrown to indicate arithmetic/buffer underflow. " alt="" coords="1362,475,1501,557"/>
+<area shape="rect" id="node27" href="$classUnexpectedValueException.html" title="Exception thrown to indicate an unexpected value. " alt="" coords="1527,475,1711,557"/>
+</map>

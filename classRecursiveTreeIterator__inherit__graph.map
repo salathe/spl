@@ -1,0 +1,6 @@
+<map id="RecursiveTreeIterator" name="RecursiveTreeIterator">
+<area shape="rect" id="node2" href="$classRecursiveIteratorIterator.html" title="Iterates through recursive iterators. " alt="" coords="19,462,183,879"/>
+<area shape="rect" id="node4" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="35,331,167,413"/>
+<area shape="rect" id="node6" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="60,137,143,282"/>
+<area shape="rect" id="node8" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="56,6,147,87"/>
+</map>

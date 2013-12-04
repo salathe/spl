@@ -1,0 +1,17 @@
+digraph "RecursiveTreeIterator\current"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RecursiveTreeIterator\l\\current",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RecursiveTreeIterator\l\\getEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveTreeIterator.html#a114413e74b1c076da3a30527ebdb3fef"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RecursiveTreeIterator\l\\getPostfix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveTreeIterator.html#af32a32afe4711a61d7d02deb0e638a42"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RecursiveTreeIterator\l\\getPrefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveTreeIterator.html#a825a0142b8d5cafc853a5af02757e22d"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="RecursiveIteratorIterator\l\\getDepth",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html#af2b687704f522073ee59b2476a83e308"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="RecursiveIteratorIterator\l\\getSubIterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html#ab06a6c464bea6b4480e840e4980d3e56"];
+}

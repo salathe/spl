@@ -1,0 +1,9 @@
+<map id="LogicException" name="LogicException">
+<area shape="rect" id="node5" href="$classBadFunctionCallException.html" title="Exception thrown when a function call was illegal. " alt="" coords="4,475,181,557"/>
+<area shape="rect" id="node9" href="$classDomainException.html" title="Exception that denotes a value not in the valid domain was used. " alt="" coords="206,475,332,557"/>
+<area shape="rect" id="node11" href="$classInvalidArgumentException.html" title="Exception that denotes invalid arguments were passed. " alt="" coords="356,475,532,557"/>
+<area shape="rect" id="node13" href="$classLengthException.html" title="Exception thrown when a parameter exceeds the allowed length. " alt="" coords="556,475,676,557"/>
+<area shape="rect" id="node15" href="$classOutOfRangeException.html" title="Exception thrown when an illegal index was requested. " alt="" coords="700,475,855,557"/>
+<area shape="rect" id="node2" href="$classException.html" title="Basic Exception class. " alt="" coords="372,6,516,295"/>
+<area shape="rect" id="node7" href="$classBadMethodCallException.html" title="Exception thrown when a method call was illegal. " alt="" coords="8,606,179,687"/>
+</map>

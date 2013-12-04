@@ -1,0 +1,6 @@
+<map id="DbaArray" name="DbaArray">
+<area shape="rect" id="node2" href="$classDbaReader.html" title="This implements a DBA Iterator. " alt="" coords="5,331,115,557"/>
+<area shape="rect" id="node4" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="18,137,101,282"/>
+<area shape="rect" id="node6" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="14,6,105,87"/>
+<area shape="rect" id="node8" href="$interfaceArrayAccess.html" title="Interface to override array access of objects. " alt="" coords="140,379,249,509"/>
+</map>

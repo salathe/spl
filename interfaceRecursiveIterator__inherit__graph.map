@@ -1,0 +1,17 @@
+<map id="RecursiveIterator" name="RecursiveIterator">
+<area shape="rect" id="node7" href="$classRecursiveArrayIterator.html" title="A recursive array iterator. " alt="" coords="5,630,160,727"/>
+<area shape="rect" id="node11" href="$classRecursiveCachingIterator.html" title="Cached recursive iteration over another Iterator. " alt="" coords="183,582,355,775"/>
+<area shape="rect" id="node15" href="$classRecursiveDirectoryIterator.html" title="recursive directory iterator " alt="" coords="380,550,585,807"/>
+<area shape="rect" id="node17" href="$classRecursiveDualIterator.html" title="Synchronous iteration over two recursive iterators. " alt="" coords="610,606,760,751"/>
+<area shape="rect" id="node19" href="$classRecursiveFilterIterator.html" title="Iterator to filter recursive iterators. " alt="" coords="785,622,937,735"/>
+<area shape="rect" id="node27" href="$classRecursiveRegexIterator.html" title="Recursive regular expression filter for iterators. " alt="" coords="962,622,1123,735"/>
+<area shape="rect" id="node29" href="$classSimpleXMLIterator.html" title="recursive SimpleXML_Element iterator " alt="" coords="1147,582,1279,775"/>
+<area shape="rect" id="node31" href="$classSplFileObject.html" title="Object representation for any stream. " alt="" coords="1304,478,1451,879"/>
+<area shape="rect" id="node2" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="732,137,815,282"/>
+<area shape="rect" id="node4" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="728,6,819,87"/>
+<area shape="rect" id="node9" href="$classSubClasses.html" title="Collects sub classes for given class or interface. " alt="" coords="27,937,137,1034"/>
+<area shape="rect" id="node13" href="$classCachingRecursiveIterator.html" title="Compatibility to PHP 5.0. " alt="" coords="183,945,355,1026"/>
+<area shape="rect" id="node21" href="$classDirectoryFilterDots.html" title="A filtered DirectoryIterator. " alt="" coords="649,929,780,1042"/>
+<area shape="rect" id="node23" href="$classNoCvsDirectory.html" title="{NoCvsDirectory\n||+ __construct()\l+ accept()\l+ getChildren()\l}" alt="" coords="804,929,919,1042"/>
+<area shape="rect" id="node25" href="$classParentIterator.html" title="Iterator to filter parents. " alt="" coords="943,945,1045,1026"/>
+</map>

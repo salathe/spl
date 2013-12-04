@@ -1,0 +1,14 @@
+digraph "DbaArray"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DbaArray\n||+ __construct()\l+ __destruct()\l+ offsetExists()\l+ offsetGet()\l+ offsetSet()\l+ offsetUnset()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{DbaReader\n|# $db\l- $key\l- $val\l|+ __construct()\l+ __destruct()\l+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l- fetch_data()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDbaReader.html",tooltip="This implements a DBA Iterator. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+  Node5 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{ArrayAccess\n||+ offsetExists()\l+ offsetGet()\l+ offsetSet()\l+ offsetUnset()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceArrayAccess.html",tooltip="Interface to override array access of objects. "];
+}

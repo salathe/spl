@@ -1,0 +1,7 @@
+<map id="RegexFindFile" name="RegexFindFile">
+<area shape="rect" id="node2" href="$classFindFile.html" title="Base class to find files. " alt="" coords="15,753,125,866"/>
+<area shape="rect" id="node4" href="$classFilterIterator.html" title="Abstract filter for iterators. " alt="" coords="4,462,136,703"/>
+<area shape="rect" id="node6" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="4,331,136,413"/>
+<area shape="rect" id="node8" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="29,137,112,282"/>
+<area shape="rect" id="node10" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="25,6,116,87"/>
+</map>

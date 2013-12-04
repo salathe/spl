@@ -1,0 +1,6 @@
+<map id="SplObjectStorage" name="SplObjectStorage">
+<area shape="rect" id="node2" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="9,137,92,282"/>
+<area shape="rect" id="node4" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="5,6,96,87"/>
+<area shape="rect" id="node6" href="$interfaceCountable.html" title="This Interface allows to hook into the global count() function. " alt="" coords="116,169,197,250"/>
+<area shape="rect" id="node8" href="$interfaceArrayAccess.html" title="Interface to override array access of objects. " alt="" coords="223,145,332,274"/>
+</map>

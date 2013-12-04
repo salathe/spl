@@ -1,0 +1,6 @@
+<map id="CallbackFilterIterator" name="CallbackFilterIterator">
+<area shape="rect" id="node2" href="$classFilterIterator.html" title="Abstract filter for iterators. " alt="" coords="11,462,143,703"/>
+<area shape="rect" id="node4" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="11,331,143,413"/>
+<area shape="rect" id="node6" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="36,137,119,282"/>
+<area shape="rect" id="node8" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="32,6,123,87"/>
+</map>

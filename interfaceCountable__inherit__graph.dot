@@ -1,0 +1,24 @@
+digraph "Countable"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Countable\n||+ count()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{ArrayIterator\n|+ ARRAY_AS_PROPS\l+ STD_PROP_LIST\l|+ __construct()\l+ append()\l+ asort()\l+ count()\l+ current()\l+ getArrayCopy()\l+ getFlags()\l+ key()\l+ ksort()\l+ natcasesort()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classArrayIterator.html",tooltip="An Array iterator. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{RecursiveArrayIterator\n|- $ref\l|+ getChildren()\l+ hasChildren()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveArrayIterator.html",tooltip="A recursive array iterator. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{SubClasses\n||+ __construct()\l+ current()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSubClasses.html",tooltip="Collects sub classes for given class or interface. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{ArrayObject\n|+ ARRAY_AS_PROPS\l+ STD_PROP_LIST\l|+ __construct()\l+ append()\l+ asort()\l+ count()\l+ exchangeArray()\l+ getArrayCopy()\l+ getFlags()\l+ getIterator()\l+ getIteratorClass()\l+ ksort()\land 10 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classArrayObject.html",tooltip="An Array wrapper. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{SimpleXMLIterator\n||+ count()\l+ current()\l+ getChildren()\l+ hasChildren()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSimpleXMLIterator.html",tooltip="recursive SimpleXML_Element iterator "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{SplDoublyLinkedList\n|+ IT_MODE_DELETE\l+ IT_MODE_FIFO\l+ IT_MODE_KEEP\l+ IT_MODE_LIFO\l# $_it_mode\l# $_it_pos\l# $_llist\l|+ bottom()\l+ count()\l+ current()\l+ getIteratorMode()\l+ isEmpty()\l+ key()\l+ next()\l+ offsetExists()\l+ offsetGet()\l+ offsetSet()\land 9 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplDoublyLinkedList.html",tooltip="Doubly Linked List. "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{SplQueue\n|# $_it_mode\l|+ dequeue()\l+ enqueue()\l+ setIteratorMode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplQueue.html",tooltip="Implementation of a Queue through a DoublyLinkedList. "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{SplStack\n|# $_it_mode\l|+ setIteratorMode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplStack.html",tooltip="Implementation of a stack through a DoublyLinkedList. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{SplObjectStorage\n|- $index\l- $storage\l|+ attach()\l+ contains()\l+ count()\l+ current()\l+ detach()\l+ getInfo()\l+ key()\l+ next()\l+ offsetEsists()\l+ offsetGet()\l+ offsetSet()\l+ offsetUnset()\l+ rewind()\l+ setInfo()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplObjectStorage.html",tooltip="Object storage. "];
+}

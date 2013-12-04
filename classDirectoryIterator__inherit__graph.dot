@@ -1,0 +1,14 @@
+digraph "DirectoryIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DirectoryIterator\n||+ __construct()\l+ __toString()\l+ current()\l+ isDot()\l+ isLink()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{SplFileInfo\n||+ __construct()\l+ __toString()\l+ getATime()\l+ getCTime()\l+ getFileInfo()\l+ getFilename()\l+ getGroup()\l+ getInode()\l+ getLinkTarget()\l+ getMTime()\land 17 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplFileInfo.html",tooltip="File info class. "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{RecursiveDirectoryIterator\n|+ CURRENT_AS_FILEINFO\l+ CURRENT_AS_PATHNAME\l+ CURRENT_AS_SELF\l+ KEY_AS_FILENAME\l+ KEY_AS_PATHNAME\l+ NEW_CURRENT_AND_KEY\l|+ __construct()\l+ current()\l+ getChildren()\l+ getSubPath()\l+ getSubPathname()\l+ hasChildren()\l+ key()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveDirectoryIterator.html",tooltip="recursive directory iterator "];
+}

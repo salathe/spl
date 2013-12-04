@@ -1,0 +1,8 @@
+<map id="SplFileObject\seek" name="SplFileObject\seek">
+<area shape="rect" id="node3" href="$classSplFileObject.html#adf6cf247f8834f7fcd4fa7d809b7e1c5" title="SplFileObject\\eof" alt="" coords="637,58,760,86"/>
+<area shape="rect" id="node5" href="$classSplFileObject.html#a37be6fbe37e78b1f3595b9cfbca2777d" title="SplFileObject\\getCurrentLine" alt="" coords="186,135,379,163"/>
+<area shape="rect" id="node17" href="$classSplFileObject.html#a0ee6628956f762d1edae1fcec3b2ad6f" title="Invalidate current line buffer and set line number to 0. " alt="" coords="434,6,577,34"/>
+<area shape="rect" id="node8" href="$classSplFileObject.html#a7a374510213763c74130d33936499a62" title="Free the current line buffer and increment the line counter. " alt="" coords="813,137,966,165"/>
+<area shape="rect" id="node10" href="$classSplFileObject.html#acdef84e5fef4bb6fc1c3f2711fac7f2b" title="SplFileObject\\readLine" alt="" coords="427,161,583,189"/>
+<area shape="rect" id="node13" href="$classSplFileObject.html#a9bc0bb683ab5a87018c17886816e0b85" title="increase current line number " alt="" coords="632,110,765,138"/>
+</map>

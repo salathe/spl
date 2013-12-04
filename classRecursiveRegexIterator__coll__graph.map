@@ -1,0 +1,8 @@
+<map id="RecursiveRegexIterator" name="RecursiveRegexIterator">
+<area shape="rect" id="node2" href="$classRegexIterator.html" title="Regular expression filter for iterators. " alt="" coords="32,753,159,1170"/>
+<area shape="rect" id="node4" href="$classFilterIterator.html" title="Abstract filter for iterators. " alt="" coords="4,462,136,703"/>
+<area shape="rect" id="node6" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="16,331,148,413"/>
+<area shape="rect" id="node8" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="93,137,176,282"/>
+<area shape="rect" id="node12" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="161,534,284,631"/>
+<area shape="rect" id="node10" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="89,6,180,87"/>
+</map>

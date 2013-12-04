@@ -1,0 +1,22 @@
+digraph "RecursiveIteratorIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RecursiveIteratorIterator\n|+ CATCH_GET_CHILD\l+ CHILD_FIRST\l+ LEAVES_ONLY\l+ SELF_FIRST\l- $ait\l- $count\l- $flags\l- $mode\l|+ __construct()\l+ beginChildren()\l+ callGetChildren()\l+ callHasChildren()\l+ current()\l+ endChildren()\l+ getDepth()\l+ getInnerIterator()\l+ getSubIterator()\l+ key()\l+ next()\l+ nextElement()\l+ rewind()\l+ valid()\l- callNextElement()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{OuterIterator\n||+ getInnerIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceOuterIterator.html",tooltip="Interface to access the current inner iteraor of iterator wrappers. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{DirectoryTree\n||+ __construct()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDirectoryTree.html",tooltip="A directory iterator that does not show &#39;. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{DirectoryTreeIterator\n||+ __call()\l+ __construct()\l+ current()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDirectoryTreeIterator.html",tooltip="DirectoryIterator to generate ASCII graphic directory trees. "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{DirectoryGraphIterator\n||+ __construct()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDirectoryGraphIterator.html",tooltip="A tree iterator that only shows directories. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{RecursiveCompareDualIterator\n|# $equal\l|+ __construct()\l+ areEqual()\l+ areIdentical()\l+ endChildren()\l+ rewind()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveCompareDualIterator.html",tooltip="Recursive comparison iterator for a RecursiveDualIterator. "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{RecursiveTreeIterator\n|+ BYPASS_CURRENT\l+ BYPASS_KEY\l+ PREFIX_END_HAS_NEXT\l+ PREFIX_END_LAST\l+ PREFIX_LEFT\l+ PREFIX_MID_HAS_NEXT\l+ PREFIX_MID_LAST\l+ PREFIX_RIGHT\l- $prefix\l- $rit_flags\l|+ __call()\l+ __construct()\l+ current()\l+ getEntry()\l+ getPostfix()\l+ getPrefix()\l+ key()\l+ setPrefixPart()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveTreeIterator.html",tooltip="RecursiveIteratorIterator to generate ASCII graphic trees for the entries in a RecursiveIterator. "];
+}

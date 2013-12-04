@@ -1,0 +1,7 @@
+<map id="ArrayIterator" name="ArrayIterator">
+<area shape="rect" id="node2" href="$interfaceSeekableIterator.html" title="seekable iterator " alt="" coords="4,355,123,437"/>
+<area shape="rect" id="node4" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="22,137,105,282"/>
+<area shape="rect" id="node6" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="18,6,109,87"/>
+<area shape="rect" id="node8" href="$interfaceArrayAccess.html" title="Interface to override array access of objects. " alt="" coords="148,331,257,461"/>
+<area shape="rect" id="node10" href="$interfaceCountable.html" title="This Interface allows to hook into the global count() function. " alt="" coords="282,355,363,437"/>
+</map>

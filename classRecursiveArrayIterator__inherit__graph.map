@@ -1,0 +1,10 @@
+<map id="RecursiveArrayIterator" name="RecursiveArrayIterator">
+<area shape="rect" id="node18" href="$classSubClasses.html" title="Collects sub classes for given class or interface. " alt="" coords="246,963,356,1061"/>
+<area shape="rect" id="node2" href="$classArrayIterator.html" title="An Array iterator. " alt="" coords="132,510,288,767"/>
+<area shape="rect" id="node4" href="$interfaceSeekableIterator.html" title="seekable iterator " alt="" coords="4,355,123,437"/>
+<area shape="rect" id="node6" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="190,137,273,282"/>
+<area shape="rect" id="node14" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="331,590,453,687"/>
+<area shape="rect" id="node8" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="186,6,277,87"/>
+<area shape="rect" id="node10" href="$interfaceArrayAccess.html" title="Interface to override array access of objects. " alt="" coords="148,331,257,461"/>
+<area shape="rect" id="node12" href="$interfaceCountable.html" title="This Interface allows to hook into the global count() function. " alt="" coords="282,355,363,437"/>
+</map>

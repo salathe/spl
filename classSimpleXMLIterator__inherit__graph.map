@@ -1,0 +1,6 @@
+<map id="SimpleXMLIterator" name="SimpleXMLIterator">
+<area shape="rect" id="node4" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="167,331,289,429"/>
+<area shape="rect" id="node6" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="186,137,269,282"/>
+<area shape="rect" id="node8" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="182,6,273,87"/>
+<area shape="rect" id="node10" href="$interfaceCountable.html" title="This Interface allows to hook into the global count() function. " alt="" coords="314,339,395,421"/>
+</map>

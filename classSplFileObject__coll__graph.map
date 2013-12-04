@@ -1,0 +1,7 @@
+<map id="SplFileObject" name="SplFileObject">
+<area shape="rect" id="node2" href="$classSplFileInfo.html" title="File info class. " alt="" coords="4,331,125,573"/>
+<area shape="rect" id="node4" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="151,403,273,501"/>
+<area shape="rect" id="node6" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="242,137,325,282"/>
+<area shape="rect" id="node10" href="$interfaceSeekableIterator.html" title="seekable iterator " alt="" coords="298,411,416,493"/>
+<area shape="rect" id="node8" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="238,6,329,87"/>
+</map>

@@ -1,0 +1,50 @@
+<map id="Iterator" name="Iterator">
+<area shape="rect" id="node5" href="$classDbaReader.html" title="This implements a DBA Iterator. " alt="" coords="262,435,372,661"/>
+<area shape="rect" id="node9" href="$classDirectoryIterator.html" title="Directory iterator. " alt="" coords="1703,443,1819,653"/>
+<area shape="rect" id="node13" href="$classDualIterator.html" title="Synchronous iteration over two iterators. " alt="" coords="1867,331,2017,765"/>
+<area shape="rect" id="node17" href="$classEmptyIterator.html" title="An empty Iterator. " alt="" coords="2333,475,2435,621"/>
+<area shape="rect" id="node19" href="$classMultipleIterator.html" title="Iterator that iterates over several iterators one after the other. " alt="" coords="2458,379,2627,717"/>
+<area shape="rect" id="node21" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="744,507,876,589"/>
+<area shape="rect" id="node77" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="2043,499,2165,597"/>
+<area shape="rect" id="node92" href="$interfaceSeekableIterator.html" title="seekable iterator " alt="" coords="2190,507,2308,589"/>
+<area shape="rect" id="node98" href="$classSplDoublyLinkedList.html" title="Doubly Linked List. " alt="" coords="2696,379,2847,717"/>
+<area shape="rect" id="node104" href="$classSplObjectStorage.html" title="Object storage. " alt="" coords="2872,387,2997,709"/>
+<area shape="rect" id="node2" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="2130,6,2221,87"/>
+<area shape="rect" id="node7" href="$classDbaArray.html" title="This implements a DBA Array. " alt="" coords="62,942,172,1103"/>
+<area shape="rect" id="node11" href="$classRecursiveDirectoryIterator.html" title="recursive directory iterator " alt="" coords="1613,894,1819,1151"/>
+<area shape="rect" id="node15" href="$classRecursiveDualIterator.html" title="Synchronous iteration over two recursive iterators. " alt="" coords="1844,950,1993,1095"/>
+<area shape="rect" id="node23" href="$classAppendIterator.html" title="Iterator that iterates over several iterators one after the other. " alt="" coords="414,918,545,1127"/>
+<area shape="rect" id="node25" href="$classCachingIterator.html" title="Cached iteration over another Iterator. " alt="" coords="1380,846,1588,1199"/>
+<area shape="rect" id="node31" href="$classFilterIterator.html" title="Abstract filter for iterators. " alt="" coords="1223,902,1355,1143"/>
+<area shape="rect" id="node57" href="$classIteratorIterator.html" title="Basic Iterator wrapper. " alt="" coords="196,926,328,1119"/>
+<area shape="rect" id="node63" href="$classLimitIterator.html" title="Limited Iteration over another Iterator. " alt="" coords="571,886,703,1159"/>
+<area shape="rect" id="node65" href="$classRecursiveIteratorIterator.html" title="Iterates through recursive iterators. " alt="" coords="728,814,892,1231"/>
+<area shape="rect" id="node27" href="$classRecursiveCachingIterator.html" title="Cached recursive iteration over another Iterator. " alt="" coords="1923,1393,2095,1586"/>
+<area shape="rect" id="node29" href="$classCachingRecursiveIterator.html" title="Compatibility to PHP 5.0. " alt="" coords="2066,1763,2237,1845"/>
+<area shape="rect" id="node33" href="$classCallbackFilterIterator.html" title="A non abstract FiletrIterator that uses a callback foreach element. " alt="" coords="1292,1313,1436,1666"/>
+<area shape="rect" id="node35" href="$classFindFile.html" title="Base class to find files. " alt="" coords="1461,1433,1571,1546"/>
+<area shape="rect" id="node39" href="$classKeyFilter.html" title="Regular expression filter for string iterators. " alt="" coords="1027,1425,1137,1554"/>
+<area shape="rect" id="node43" href="$classRecursiveFilterIterator.html" title="Iterator to filter recursive iterators. " alt="" coords="1596,1433,1748,1546"/>
+<area shape="rect" id="node51" href="$classRegexIterator.html" title="Regular expression filter for iterators. " alt="" coords="1772,1281,1899,1698"/>
+<area shape="rect" id="node55" href="$classSearchIterator.html" title="Iterator to search for a specific element. " alt="" coords="1162,1425,1267,1554"/>
+<area shape="rect" id="node37" href="$classRegexFindFile.html" title="Find files by regular expression. " alt="" coords="1325,1755,1435,1853"/>
+<area shape="rect" id="node41" href="$classIniGroups.html" title="Class to iterate all groups within an ini file. " alt="" coords="1027,1747,1137,1861"/>
+<area shape="rect" id="node45" href="$classDirectoryFilterDots.html" title="A filtered DirectoryIterator. " alt="" coords="1459,1747,1591,1861"/>
+<area shape="rect" id="node47" href="$classNoCvsDirectory.html" title="{NoCvsDirectory\n||+ __construct()\l+ accept()\l+ getChildren()\l}" alt="" coords="1615,1747,1729,1861"/>
+<area shape="rect" id="node49" href="$classParentIterator.html" title="Iterator to filter parents. " alt="" coords="1754,1763,1856,1845"/>
+<area shape="rect" id="node53" href="$classRecursiveRegexIterator.html" title="Recursive regular expression filter for iterators. " alt="" coords="1881,1747,2041,1861"/>
+<area shape="rect" id="node59" href="$classInfiniteIterator.html" title="An infinite Iterator. " alt="" coords="153,1449,255,1530"/>
+<area shape="rect" id="node61" href="$classNoRewindIterator.html" title="An Iterator wrapper that doesn&#39;t call rewind. " alt="" coords="4,1449,128,1530"/>
+<area shape="rect" id="node67" href="$classDirectoryTree.html" title="A directory iterator that does not show &#39;. " alt="" coords="665,1449,775,1530"/>
+<area shape="rect" id="node69" href="$classDirectoryTreeIterator.html" title="DirectoryIterator to generate ASCII graphic directory trees. " alt="" coords="497,1433,640,1546"/>
+<area shape="rect" id="node73" href="$classRecursiveCompareDualIterator.html" title="Recursive comparison iterator for a RecursiveDualIterator. " alt="" coords="799,1417,1003,1562"/>
+<area shape="rect" id="node75" href="$classRecursiveTreeIterator.html" title="RecursiveIteratorIterator to generate ASCII graphic trees for the entries in a RecursiveIterator. " alt="" coords="279,1321,472,1658"/>
+<area shape="rect" id="node71" href="$classDirectoryGraphIterator.html" title="A tree iterator that only shows directories. " alt="" coords="492,1763,645,1845"/>
+<area shape="rect" id="node79" href="$classRecursiveArrayIterator.html" title="A recursive array iterator. " alt="" coords="2393,1441,2548,1538"/>
+<area shape="rect" id="node88" href="$classSimpleXMLIterator.html" title="recursive SimpleXML_Element iterator " alt="" coords="2219,926,2351,1119"/>
+<area shape="rect" id="node90" href="$classSplFileObject.html" title="Object representation for any stream. " alt="" coords="2376,822,2523,1223"/>
+<area shape="rect" id="node81" href="$classSubClasses.html" title="Collects sub classes for given class or interface. " alt="" coords="2415,1755,2525,1853"/>
+<area shape="rect" id="node94" href="$classArrayIterator.html" title="An Array iterator. " alt="" coords="2547,894,2703,1151"/>
+<area shape="rect" id="node100" href="$classSplQueue.html" title="Implementation of a Queue through a DoublyLinkedList. " alt="" coords="2727,966,2861,1079"/>
+<area shape="rect" id="node102" href="$classSplStack.html" title="Implementation of a stack through a DoublyLinkedList. " alt="" coords="2886,982,3020,1063"/>
+</map>

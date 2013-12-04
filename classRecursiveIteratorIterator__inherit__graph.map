@@ -1,0 +1,10 @@
+<map id="RecursiveIteratorIterator" name="RecursiveIteratorIterator">
+<area shape="rect" id="node9" href="$classDirectoryTree.html" title="A directory iterator that does not show &#39;. " alt="" coords="5,1057,115,1138"/>
+<area shape="rect" id="node11" href="$classDirectoryTreeIterator.html" title="DirectoryIterator to generate ASCII graphic directory trees. " alt="" coords="139,1041,281,1154"/>
+<area shape="rect" id="node15" href="$classRecursiveCompareDualIterator.html" title="Recursive comparison iterator for a RecursiveDualIterator. " alt="" coords="307,1025,511,1170"/>
+<area shape="rect" id="node17" href="$classRecursiveTreeIterator.html" title="RecursiveIteratorIterator to generate ASCII graphic trees for the entries in a RecursiveIterator. " alt="" coords="536,929,729,1266"/>
+<area shape="rect" id="node2" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="243,331,375,413"/>
+<area shape="rect" id="node4" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="268,137,351,282"/>
+<area shape="rect" id="node6" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="264,6,355,87"/>
+<area shape="rect" id="node13" href="$classDirectoryGraphIterator.html" title="A tree iterator that only shows directories. " alt="" coords="134,1315,287,1397"/>
+</map>

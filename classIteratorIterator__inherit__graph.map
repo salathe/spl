@@ -1,0 +1,7 @@
+<map id="IteratorIterator" name="IteratorIterator">
+<area shape="rect" id="node9" href="$classInfiniteIterator.html" title="An infinite Iterator. " alt="" coords="5,705,107,786"/>
+<area shape="rect" id="node11" href="$classNoRewindIterator.html" title="An Iterator wrapper that doesn&#39;t call rewind. " alt="" coords="131,705,255,786"/>
+<area shape="rect" id="node2" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="58,331,189,413"/>
+<area shape="rect" id="node4" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="82,137,165,282"/>
+<area shape="rect" id="node6" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="78,6,169,87"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="FilterIterator" name="FilterIterator">
+<area shape="rect" id="node9" href="$classCallbackFilterIterator.html" title="A non abstract FiletrIterator that uses a callback foreach element. " alt="" coords="5,785,149,1138"/>
+<area shape="rect" id="node11" href="$classFindFile.html" title="Base class to find files. " alt="" coords="174,905,284,1018"/>
+<area shape="rect" id="node15" href="$classKeyFilter.html" title="Regular expression filter for string iterators. " alt="" coords="309,897,419,1026"/>
+<area shape="rect" id="node19" href="$classRecursiveFilterIterator.html" title="Iterator to filter recursive iterators. " alt="" coords="444,905,596,1018"/>
+<area shape="rect" id="node27" href="$classRegexIterator.html" title="Regular expression filter for iterators. " alt="" coords="620,753,747,1170"/>
+<area shape="rect" id="node31" href="$classSearchIterator.html" title="Iterator to search for a specific element. " alt="" coords="771,897,876,1026"/>
+<area shape="rect" id="node2" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="375,331,507,413"/>
+<area shape="rect" id="node4" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="400,137,483,282"/>
+<area shape="rect" id="node6" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="396,6,487,87"/>
+<area shape="rect" id="node13" href="$classRegexFindFile.html" title="Find files by regular expression. " alt="" coords="106,1227,216,1325"/>
+<area shape="rect" id="node17" href="$classIniGroups.html" title="Class to iterate all groups within an ini file. " alt="" coords="241,1219,351,1333"/>
+<area shape="rect" id="node21" href="$classDirectoryFilterDots.html" title="A filtered DirectoryIterator. " alt="" coords="375,1219,507,1333"/>
+<area shape="rect" id="node23" href="$classNoCvsDirectory.html" title="{NoCvsDirectory\n||+ __construct()\l+ accept()\l+ getChildren()\l}" alt="" coords="531,1219,645,1333"/>
+<area shape="rect" id="node25" href="$classParentIterator.html" title="Iterator to filter parents. " alt="" coords="670,1235,772,1317"/>
+<area shape="rect" id="node29" href="$classRecursiveRegexIterator.html" title="Recursive regular expression filter for iterators. " alt="" coords="797,1219,957,1333"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="SplDoublyLinkedList" name="SplDoublyLinkedList">
+<area shape="rect" id="node11" href="$classSplQueue.html" title="Implementation of a Queue through a DoublyLinkedList. " alt="" coords="24,718,159,831"/>
+<area shape="rect" id="node13" href="$classSplStack.html" title="Implementation of a stack through a DoublyLinkedList. " alt="" coords="183,734,317,815"/>
+<area shape="rect" id="node2" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="9,137,92,282"/>
+<area shape="rect" id="node4" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="5,6,96,87"/>
+<area shape="rect" id="node6" href="$interfaceArrayAccess.html" title="Interface to override array access of objects. " alt="" coords="116,145,225,274"/>
+<area shape="rect" id="node8" href="$interfaceCountable.html" title="This Interface allows to hook into the global count() function. " alt="" coords="250,169,331,250"/>
+</map>

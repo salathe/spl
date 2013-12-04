@@ -1,0 +1,6 @@
+<map id="RecursiveDualIterator" name="RecursiveDualIterator">
+<area shape="rect" id="node2" href="$classDualIterator.html" title="Synchronous iteration over two iterators. " alt="" coords="5,331,155,765"/>
+<area shape="rect" id="node4" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="118,137,201,282"/>
+<area shape="rect" id="node8" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="179,499,301,597"/>
+<area shape="rect" id="node6" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="114,6,205,87"/>
+</map>

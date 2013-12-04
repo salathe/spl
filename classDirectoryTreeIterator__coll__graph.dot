@@ -1,0 +1,14 @@
+digraph "DirectoryTreeIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{DirectoryTreeIterator\n||+ __call()\l+ __construct()\l+ current()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{RecursiveIteratorIterator\n|+ CATCH_GET_CHILD\l+ CHILD_FIRST\l+ LEAVES_ONLY\l+ SELF_FIRST\l- $ait\l- $count\l- $flags\l- $mode\l|+ __construct()\l+ beginChildren()\l+ callGetChildren()\l+ callHasChildren()\l+ current()\l+ endChildren()\l+ getDepth()\l+ getInnerIterator()\l+ getSubIterator()\l+ key()\l+ next()\l+ nextElement()\l+ rewind()\l+ valid()\l- callNextElement()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveIteratorIterator.html",tooltip="Iterates through recursive iterators. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{OuterIterator\n||+ getInnerIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceOuterIterator.html",tooltip="Interface to access the current inner iteraor of iterator wrappers. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+}

@@ -1,0 +1,11 @@
+digraph "RecursiveCachingIterator\next"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RecursiveCachingIterator\\next",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="RecursiveCachingIterator\l\\getChildren",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveCachingIterator.html#a73b24e527c24aa6d1cfbb577ccb2def7"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="RecursiveCachingIterator\l\\hasChildren",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveCachingIterator.html#a864ba84bc92f83f5ac62e0574defe8b8"];
+}

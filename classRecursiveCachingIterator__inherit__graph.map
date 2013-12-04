@@ -1,0 +1,8 @@
+<map id="RecursiveCachingIterator" name="RecursiveCachingIterator">
+<area shape="rect" id="node14" href="$classCachingRecursiveIterator.html" title="Compatibility to PHP 5.0. " alt="" coords="118,1107,289,1189"/>
+<area shape="rect" id="node2" href="$classCachingIterator.html" title="Cached iteration over another Iterator. " alt="" coords="5,462,213,815"/>
+<area shape="rect" id="node4" href="$interfaceOuterIterator.html" title="Interface to access the current inner iteraor of iterator wrappers. " alt="" coords="64,331,196,413"/>
+<area shape="rect" id="node6" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="141,137,224,282"/>
+<area shape="rect" id="node10" href="$interfaceRecursiveIterator.html" title="Interface for recursive iteration with RecursiveIteratorIterator. " alt="" coords="237,590,360,687"/>
+<area shape="rect" id="node8" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="137,6,228,87"/>
+</map>

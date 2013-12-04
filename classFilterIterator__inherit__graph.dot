@@ -1,0 +1,36 @@
+digraph "FilterIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{FilterIterator\n|- $it\l|+ __call()\l+ __construct()\l+ accept()\l+ current()\l+ getInnerIterator()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l# __clone()\l# fetch()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{OuterIterator\n||+ getInnerIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceOuterIterator.html",tooltip="Interface to access the current inner iteraor of iterator wrappers. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{CallbackFilterIterator\n|+ REPLACE\l+ USE_BOTH\l+ USE_FALSE\l+ USE_KEY\l+ USE_TRUE\l+ USE_VALUE\l- $callback\l- $current\l- $flags\l- $key\l- $mode\l|+ __construct()\l+ accept()\l+ current()\l+ getFlags()\l+ getMode()\l+ key()\l+ setFlags()\l+ setMode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCallbackFilterIterator.html",tooltip="A non abstract FiletrIterator that uses a callback foreach element. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{FindFile\n|- $file\l|+ __construct()\l+ accept()\l+ getSearch()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classFindFile.html",tooltip="Base class to find files. "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{RegexFindFile\n||+ __construct()\l+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRegexFindFile.html",tooltip="Find files by regular expression. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{KeyFilter\n|- $regex\l|+ __construct()\l+ accept()\l+ getRegex()\l# __clone()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classKeyFilter.html",tooltip="Regular expression filter for string iterators. "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{IniGroups\n||+ __construct()\l+ current()\l+ key()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIniGroups.html",tooltip="Class to iterate all groups within an ini file. "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{RecursiveFilterIterator\n|- $ref\l|+ __construct()\l+ getChildren()\l+ hasChildren()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveFilterIterator.html",tooltip="Iterator to filter recursive iterators. "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node11 [label="{DirectoryFilterDots\n||+ __construct()\l+ accept()\l+ key()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDirectoryFilterDots.html",tooltip="A filtered DirectoryIterator. "];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node12 [label="{NoCvsDirectory\n||+ __construct()\l+ accept()\l+ getChildren()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNoCvsDirectory.html"];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node13 [label="{ParentIterator\n||+ accept()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classParentIterator.html",tooltip="Iterator to filter parents. "];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node14 [label="{RegexIterator\n|+ ALL_MATCHES\l+ GET_MATCH\l+ MATCH\l+ REPLACE\l+ SPLIT\l+ USE_KEY\l- $current\l- $flags\l- $key\l- $mode\l- $preg_flags\l- $regex\l|+ __construct()\l+ accept()\l+ current()\l+ getFlags()\l+ getMode()\l+ getPregFlags()\l+ getRegex()\l+ key()\l+ setFlags()\l+ setMode()\l+ setPregFlags()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRegexIterator.html",tooltip="Regular expression filter for iterators. "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node15 [label="{RecursiveRegexIterator\n|- $ref\l|+ __construct()\l+ getChildren()\l+ hasChildren()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveRegexIterator.html",tooltip="Recursive regular expression filter for iterators. "];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node16 [label="{SearchIterator\n|- $done\l|+ __call()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSearchIterator.html",tooltip="Iterator to search for a specific element. "];
+}

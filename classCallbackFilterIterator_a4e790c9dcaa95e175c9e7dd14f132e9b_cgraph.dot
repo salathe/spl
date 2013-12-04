@@ -1,0 +1,11 @@
+digraph "CallbackFilterIterator\accept"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CallbackFilterIterator\l\\accept",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CallbackFilterIterator\l\\current",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCallbackFilterIterator.html#a34f2c388b627047fee61617ee6630711"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CallbackFilterIterator\\key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCallbackFilterIterator.html#a91740dfbdcded0459cc27aaf427c09a4"];
+}

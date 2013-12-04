@@ -1,0 +1,6 @@
+digraph "SplFileInfo"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SplFileInfo\n||+ __construct()\l+ __toString()\l+ getATime()\l+ getCTime()\l+ getFileInfo()\l+ getFilename()\l+ getGroup()\l+ getInode()\l+ getLinkTarget()\l+ getMTime()\land 17 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

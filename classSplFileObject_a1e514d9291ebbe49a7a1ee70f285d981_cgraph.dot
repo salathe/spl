@@ -1,0 +1,20 @@
+digraph "SplFileObject\current"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SplFileObject\\current",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SplFileObject\\getCurrentLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplFileObject.html#a37be6fbe37e78b1f3595b9cfbca2777d"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SplFileObject\\freeLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplFileObject.html#a7a374510213763c74130d33936499a62",tooltip="Free the current line buffer and increment the line counter. "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SplFileObject\\eof",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplFileObject.html#adf6cf247f8834f7fcd4fa7d809b7e1c5"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SplFileObject\\readLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplFileObject.html#acdef84e5fef4bb6fc1c3f2711fac7f2b"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SplFileObject\\fgets",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplFileObject.html#a9bc0bb683ab5a87018c17886816e0b85",tooltip="increase current line number "];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

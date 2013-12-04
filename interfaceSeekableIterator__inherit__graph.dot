@@ -1,0 +1,18 @@
+digraph "SeekableIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{SeekableIterator\n||+ seek()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{ArrayIterator\n|+ ARRAY_AS_PROPS\l+ STD_PROP_LIST\l|+ __construct()\l+ append()\l+ asort()\l+ count()\l+ current()\l+ getArrayCopy()\l+ getFlags()\l+ key()\l+ ksort()\l+ natcasesort()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classArrayIterator.html",tooltip="An Array iterator. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{RecursiveArrayIterator\n|- $ref\l|+ getChildren()\l+ hasChildren()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveArrayIterator.html",tooltip="A recursive array iterator. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{SubClasses\n||+ __construct()\l+ current()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSubClasses.html",tooltip="Collects sub classes for given class or interface. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{SplFileObject\n|+ DROP_NEW_LINE\l- $delimiter\l- $enclosure\l- $flags\l- $fname\l- $fp\l- $line\l- $lnum\l- $max_len\l|+ __construct()\l+ __toString()\l+ current()\l+ eof()\l+ fflush()\l+ fgetc()\l+ fgetcsv()\l+ fgets()\l+ fgetss()\l+ flock()\land 21 more...\l- freeLine()\l- readLine()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSplFileObject.html",tooltip="Object representation for any stream. "];
+}

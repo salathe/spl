@@ -1,0 +1,31 @@
+<map id="OuterIterator" name="OuterIterator">
+<area shape="rect" id="node7" href="$classAppendIterator.html" title="Iterator that iterates over several iterators one after the other. " alt="" coords="328,566,460,775"/>
+<area shape="rect" id="node9" href="$classCachingIterator.html" title="Cached iteration over another Iterator. " alt="" coords="485,494,693,847"/>
+<area shape="rect" id="node15" href="$classFilterIterator.html" title="Abstract filter for iterators. " alt="" coords="718,550,849,791"/>
+<area shape="rect" id="node41" href="$classIteratorIterator.html" title="Basic Iterator wrapper. " alt="" coords="944,574,1076,767"/>
+<area shape="rect" id="node47" href="$classLimitIterator.html" title="Limited Iteration over another Iterator. " alt="" coords="1102,534,1233,807"/>
+<area shape="rect" id="node49" href="$classRecursiveIteratorIterator.html" title="Iterates through recursive iterators. " alt="" coords="1495,462,1659,879"/>
+<area shape="rect" id="node2" href="$interfaceIterator.html" title="Basic iterator. " alt="" coords="856,137,939,282"/>
+<area shape="rect" id="node4" href="$interfaceTraversable.html" title="Interface to detect a class is traversable using foreach. " alt="" coords="852,6,943,87"/>
+<area shape="rect" id="node11" href="$classRecursiveCachingIterator.html" title="Cached recursive iteration over another Iterator. " alt="" coords="5,1041,176,1234"/>
+<area shape="rect" id="node13" href="$classCachingRecursiveIterator.html" title="Compatibility to PHP 5.0. " alt="" coords="5,1411,176,1493"/>
+<area shape="rect" id="node17" href="$classCallbackFilterIterator.html" title="A non abstract FiletrIterator that uses a callback foreach element. " alt="" coords="201,961,345,1314"/>
+<area shape="rect" id="node19" href="$classFindFile.html" title="Base class to find files. " alt="" coords="370,1081,480,1194"/>
+<area shape="rect" id="node23" href="$classKeyFilter.html" title="Regular expression filter for string iterators. " alt="" coords="505,1073,615,1202"/>
+<area shape="rect" id="node27" href="$classRecursiveFilterIterator.html" title="Iterator to filter recursive iterators. " alt="" coords="640,1081,792,1194"/>
+<area shape="rect" id="node35" href="$classRegexIterator.html" title="Regular expression filter for iterators. " alt="" coords="816,929,943,1346"/>
+<area shape="rect" id="node39" href="$classSearchIterator.html" title="Iterator to search for a specific element. " alt="" coords="967,1073,1072,1202"/>
+<area shape="rect" id="node21" href="$classRegexFindFile.html" title="Find files by regular expression. " alt="" coords="302,1403,412,1501"/>
+<area shape="rect" id="node25" href="$classIniGroups.html" title="Class to iterate all groups within an ini file. " alt="" coords="437,1395,547,1509"/>
+<area shape="rect" id="node29" href="$classDirectoryFilterDots.html" title="A filtered DirectoryIterator. " alt="" coords="571,1395,703,1509"/>
+<area shape="rect" id="node31" href="$classNoCvsDirectory.html" title="{NoCvsDirectory\n||+ __construct()\l+ accept()\l+ getChildren()\l}" alt="" coords="727,1395,841,1509"/>
+<area shape="rect" id="node33" href="$classParentIterator.html" title="Iterator to filter parents. " alt="" coords="866,1411,968,1493"/>
+<area shape="rect" id="node37" href="$classRecursiveRegexIterator.html" title="Recursive regular expression filter for iterators. " alt="" coords="993,1395,1153,1509"/>
+<area shape="rect" id="node43" href="$classInfiniteIterator.html" title="An infinite Iterator. " alt="" coords="1097,1097,1199,1178"/>
+<area shape="rect" id="node45" href="$classNoRewindIterator.html" title="An Iterator wrapper that doesn&#39;t call rewind. " alt="" coords="1223,1097,1347,1178"/>
+<area shape="rect" id="node51" href="$classDirectoryTree.html" title="A directory iterator that does not show &#39;. " alt="" coords="1371,1097,1481,1178"/>
+<area shape="rect" id="node53" href="$classDirectoryTreeIterator.html" title="DirectoryIterator to generate ASCII graphic directory trees. " alt="" coords="1505,1081,1648,1194"/>
+<area shape="rect" id="node57" href="$classRecursiveCompareDualIterator.html" title="Recursive comparison iterator for a RecursiveDualIterator. " alt="" coords="1673,1065,1877,1210"/>
+<area shape="rect" id="node59" href="$classRecursiveTreeIterator.html" title="RecursiveIteratorIterator to generate ASCII graphic trees for the entries in a RecursiveIterator. " alt="" coords="1903,969,2096,1306"/>
+<area shape="rect" id="node55" href="$classDirectoryGraphIterator.html" title="A tree iterator that only shows directories. " alt="" coords="1500,1411,1653,1493"/>
+</map>

@@ -1,0 +1,16 @@
+digraph "CachingIterator"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{CachingIterator\n|+ CALL_TOSTRING\l+ CATCH_GET_CHILD\l+ TOSTRING_USE_CURRENT\l+ TOSTRING_USE_KEY\l- $current\l- $it\l- $key\l- $strValue\l- $valid\l|+ __call()\l+ __construct()\l+ __toString()\l+ current()\l+ getInnerIterator()\l+ hasNext()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{OuterIterator\n||+ getInnerIterator()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceOuterIterator.html",tooltip="Interface to access the current inner iteraor of iterator wrappers. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Iterator\n||+ current()\l+ key()\l+ next()\l+ rewind()\l+ valid()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceIterator.html",tooltip="Basic iterator. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{Traversable\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceTraversable.html",tooltip="Interface to detect a class is traversable using foreach. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{RecursiveCachingIterator\n|+ getChildren\l- $getChildren\l- $hasChildren\l- $ref\l|+ __construct()\l+ getChildren()\l+ hasChildren()\l+ next()\l+ rewind()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRecursiveCachingIterator.html",tooltip="Cached recursive iteration over another Iterator. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{CachingRecursiveIterator\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCachingRecursiveIterator.html",tooltip="Compatibility to PHP 5.0. "];
+}

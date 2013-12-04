@@ -1,0 +1,12 @@
+digraph "BadFunctionCallException"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{BadFunctionCallException\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{LogicException\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLogicException.html",tooltip="Exception that represents error in the program logic. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{Exception\n|# $code\l# $file\l# $line\l# $message\l- $string\l- $trace\l|+ __construct()\l+ __toString()\l+ getCode()\l+ getFile()\l+ getLine()\l+ getMessage()\l+ getTrace()\l+ getTraceAsString()\l- __clone()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classException.html",tooltip="Basic Exception class. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{BadMethodCallException\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classBadMethodCallException.html",tooltip="Exception thrown when a method call was illegal. "];
+}

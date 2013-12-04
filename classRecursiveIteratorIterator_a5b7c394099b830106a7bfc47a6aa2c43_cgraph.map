@@ -1,0 +1,9 @@
+<map id="RecursiveIteratorIterator\next" name="RecursiveIteratorIterator\next">
+<area shape="rect" id="node3" href="$classRecursiveIteratorIterator.html#a86f198e3d825f0eaf09eb905819a6e87" title="Called right after calling getChildren() and its rewind(). " alt="" coords="248,5,413,49"/>
+<area shape="rect" id="node5" href="$classRecursiveIteratorIterator.html#a6e49ae0b997618aa83409abd6f136e70" title="RecursiveIteratorIterator\l\\callGetChildren" alt="" coords="248,73,413,117"/>
+<area shape="rect" id="node7" href="$classRecursiveIteratorIterator.html#ac75e71340e63d2f2b3177f8d048c372e" title="RecursiveIteratorIterator\l\\callHasChildren" alt="" coords="461,125,627,169"/>
+<area shape="rect" id="node9" href="$classRecursiveIteratorIterator.html#a3b80db4502f5a5de4215eecaf594ede7" title="RecursiveIteratorIterator\l\\callNextElement" alt="" coords="248,193,413,237"/>
+<area shape="rect" id="node16" href="$classRecursiveIteratorIterator.html#ad6b5372fc86bbeecbb240c3c6a9bac5a" title="Called after current child iterator is invalid and right before it gets destructed. " alt="" coords="675,291,840,335"/>
+<area shape="rect" id="node12" href="$classRecursiveIteratorIterator.html#a9daa2d556b35dd51c773f21d1fd5213e" title="Called when the next element is available. " alt="" coords="461,193,627,237"/>
+<area shape="rect" id="node14" href="$classRecursiveIteratorIterator.html#afbe0763395760e5d5fa002a4d11aeaaf" title="RecursiveIteratorIterator\l\\valid" alt="" coords="461,261,627,305"/>
+</map>
